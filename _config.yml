@@ -10,8 +10,8 @@ title: Christopher's Email
 email: cfleischmann@nclud.com
 description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+baseurl: "/blog" # the subpath of your site, e.g. /blog
+url: "http://christopherfleischmann.github.io" # the base hostname & protocol for your site
 twitter_username: Chris.Flei
 github_username:  ChristopherFleischmann
 
