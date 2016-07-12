@@ -6,5 +6,5 @@ echo "initiating adding and commiting files"
 git add -A
 git commit
 echo "Pushing Data"
-git push origin master
+git push origin gh-pages
 echo "Process Complete"
