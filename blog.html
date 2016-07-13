@@ -1,12 +1,28 @@
 ---
-layout: default
+layout: post
 ---
 
-<div class="home">
+<div class="blog">
 
   <h1 class="c-page__title">Blog</h1>
 
+    <ul class="wrapper__tight">
+      {% for post in site.posts %}
+        <div class="c-post-item">
+          <li>
+            
+            <span class="c-post-item__meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+            <h2 class="c-post-item__title">
+              <a class="c-post-item__content" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
 
+            </h2>
+            <p class="c-post-item__content">{{post.excerpt | remove: '<p>' | remove: '</p>' }}</p>
+
+          </li>
+        </div>
+      {% endfor %}
+
+    </ul>
 
   <!-- <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p> -->
 
