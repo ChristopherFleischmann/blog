@@ -34,9 +34,6 @@
     background-color: darken($primary, 5%);
     box-shadow: inset 0px 0px 10px 5px rgba(0, 84, 112, 0.6);
 
-    @media #{$medium-up} {
-       width: 80%;
-
-    }
+    
   }
 }
