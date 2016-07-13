@@ -1,17 +1,11 @@
 .c-page-content {
   height: 100%;
-  min-height: 550px;
+
   display: flex;
-  padding-bottom: 100px;
+  flex-direction: column;
+  //padding-bottom: 100px;
   background-color: $primary;
 
-  // &:nth-of-type(2n) {
-  //   background-color: $tertiary;
-  // }
-  //
-  // &:nth-of-type(2n + 1) {
-  //   background-color: $primary;
-  // }
 }
 
 .c-page__title{

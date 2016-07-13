@@ -2,9 +2,10 @@
 .c-masthead {
     background-color: $primary;
     height: 100vh;
-    min-height: 550px;
     display: flex;
-    //margin-top: 100px;
+    position: relative;
+    text-align: center;
+    margin-top: 52px;
 }
 
 .c-masthead__content{
